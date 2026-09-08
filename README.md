@@ -17,5 +17,8 @@ updated
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3ee554a7-4600-48cd-ad91-1ade890468ba" />
 prototype
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8da3e425-d1b3-4732-b5c9-354509127268" />
+stitch updated project ss
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/213c2644-882b-4903-ae7a-c47a9ed3c466" />
+
 
 
