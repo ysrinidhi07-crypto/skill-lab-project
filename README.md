@@ -15,4 +15,7 @@ project design screenshot
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/afe10b13-ca0f-43a4-8c63-afb0b1811136" />
 updated
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3ee554a7-4600-48cd-ad91-1ade890468ba" />
+prototype
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8da3e425-d1b3-4732-b5c9-354509127268" />
+
 
