@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aura - Social Media</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<!-- ================= LOGIN ================= -->
+
+<section id="login" class="login-page">
+
+    <div class="login-left">
+
+        <div class="aura-logo">∞</div>
+
+        <p class="small-title">A NEW WAY TO CONNECT</p>
+
+        <h1>
+            Share your
+            <span>aura.</span>
+        </h1>
+
+        <p class="description">
+            Discover people, ideas and moments that feel like you.
+        </p>
+
+    </div>
+
+
+    <div class="login-right">
+
+        <div class="mobile-logo">
+            <span>∞</span> Aura
+        </div>
+
+        <p class="small-title">WELCOME BACK</p>
+
+        <h2>Sign in to Aura</h2>
+
+        <p class="subtitle">
+            Continue where you left off.
+        </p>
+
+        <form id="loginForm">
+
+            <label>Username</label>
+
+            <div class="input-box">
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Enter your username"
+                    required
+                >
+            </div>
+
+
+            <label>Password</label>
+
+            <div class="input-box password-box">
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                    required
+                >
+
+                <button type="button" id="showPassword">
+                    👁
+                </button>
+
+            </div>
+
+
+            <div class="form-options">
+
+                <label class="remember">
+                    <input type="checkbox">
+                    Remember me
+                </label>
+
+                <a href="#">Forgot password?</a>
+
+            </div>
+
+
+            <button class="login-button" type="submit">
+                Log in →
+            </button>
+
+        </form>
+
+
+        <p class="signup">
+            New to Aura?
+            <a href="#">Create an account</a>
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= APPLICATION ================= -->
+
+<section id="application" class="application">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <span>∞</span> Aura
+        </div>
+
+
+        <nav>
+
+            <button class="nav-button active" data-page="home">
+                🏠
+                <span>Home</span>
+            </button>
+
+            <button class="nav-button" data-page="explore">
+                🔍
+                <span>Explore</span>
+            </button>
+
+            <button class="nav-button" data-page="reels">
+                ▶
+                <span>Reels</span>
+            </button>
+
+            <button class="nav-button" data-page="messages">
+                💬
+                <span>Messages</span>
+                <b>3</b>
+            </button>
+
+            <button class="nav-button" data-page="profile">
+                👤
+                <span>Profile</span>
+            </button>
+
+        </nav>
+
+
+        <button class="create-post">
+            ＋ Create post
+        </button>
+
+
+        <div class="sidebar-bottom">
+
+            <button class="nav-button">
+                ⚙
+                <span>Settings</span>
+            </button>
+
+
+            <div class="mini-profile">
+
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100">
+
+                <div>
+                    <strong>Aria Morgan</strong>
+                    <small>@ariamorgan</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main">
+
+        <header>
+
+            <div class="mobile-logo">
+                <span>∞</span> Aura
+            </div>
+
+            <div class="header-right">
+                🔔
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100">
+            </div>
+
+        </header>
+
+
+
+        <!-- ================= HOME ================= -->
+
+        <div class="page active" id="home">
+
+            <div class="page-heading">
+
+                <div>
+                    <p class="small-title">THURSDAY, SEPTEMBER 9</p>
+
+                    <h1>
+                        Good afternoon, Aria ✦
+                    </h1>
+                </div>
+
+                <button class="outline-button">
+                    ⚙ Customize
+                </button>
+
+            </div>
+
+
+            <!-- STORIES -->
+
+            <div class="stories card">
+
+                <div class="section-header">
+                    <h3>Stories</h3>
+                    <button>View all</button>
+                </div>
+
+
+                <div class="story-container">
+
+                    <div class="story">
+
+                        <div class="story-image add">
+                            +
+                        </div>
+
+                        <span>Your story</span>
+
+                    </div>
+
+
+                    <div class="story">
+
+                        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=150">
+
+                        <span>jordan</span>
+
+                    </div>
+
+
+                    <div class="story">
+
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150">
+
+                        <span>alex.lee</span>
+
+                    </div>
+
+
+                    <div class="story">
+
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150">
+
+                        <span>mila</span>
+
+                    </div>
+
+
+                    <div class="story">
+
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150">
+
+                        <span>noah.w</span>
+
+                    </div>
+
+
+                    <div class="story">
+
+                        <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150">
+
+                        <span>samuel</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- FEED -->
+
+            <div class="content-grid">
+
+                <div class="feed">
+
+
+                    <!-- POST 1 -->
+
+                    <article class="post card">
+
+                        <div class="post-header">
+
+                            <div class="user">
+
+                                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100">
+
+                                <div>
+                                    <strong>Daniel Kim</strong>
+                                    <small>@danielkim · 2h</small>
+                                </div>
+
+                            </div>
+
+                            <button>•••</button>
+
+                        </div>
+
+
+                        <p class="post-text">
+                            Chasing quiet moments between the busy ones.
+                            There's something about golden hour that makes
+                            everything slow down. ✨
+                        </p>
+
+
+                        <img
+                            class="post-image"
+                            src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=1000"
+                        >
+
+
+                        <div class="post-actions">
+
+                            <div>
+
+                                <button class="like">
+                                    ♡ <span>1.2k</span>
+                                </button>
+
+                                <button>
+                                    💬 <span>86</span>
+                                </button>
+
+                                <button>
+                                    ↗
+                                </button>
+
+                            </div>
+
+                            <button class="save">
+                                🔖
+                            </button>
+
+                        </div>
+
+
+                        <small class="liked">
+                            Daniel Kim and 1,201 others liked this
+                        </small>
+
+                    </article>
+
+
+
+                    <!-- POST 2 -->
+
+                    <article class="post card">
+
+                        <div class="post-header">
+
+                            <div class="user">
+
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100">
+
+                                <div>
+                                    <strong>Sofia Park</strong>
+                                    <small>@sofiapark · 5h</small>
+                                </div>
+
+                            </div>
+
+                            <button>•••</button>
+
+                        </div>
+
+
+                        <p class="post-text">
+                            A little color for the middle of the week.
+                            What are you listening to today?
+                        </p>
+
+
+                        <div class="color-post">
+
+                            <span>MOOD / 09</span>
+
+                        </div>
+
+
+                        <div class="post-actions">
+
+                            <div>
+
+                                <button class="like">
+                                    ♡ <span>486</span>
+                                </button>
+
+                                <button>
+                                    💬 <span>31</span>
+                                </button>
+
+                                <button>↗</button>
+
+                            </div>
+
+                            <button class="save">
+                                🔖
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- RIGHT SIDEBAR -->
+
+                <aside class="right-sidebar">
+
+                    <div class="card suggestions">
+
+                        <div class="section-header">
+                            <h3>People to follow</h3>
+                            <button>See all</button>
+                        </div>
+
+
+                        <div class="suggestion">
+
+                            <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=100">
+
+                            <div>
+                                <strong>Emma Stone</strong>
+                                <small>@emmastudio</small>
+                            </div>
+
+                            <button>Follow</button>
+
+                        </div>
+
+
+                        <div class="suggestion">
+
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100">
+
+                            <div>
+                                <strong>Olivia Chen</strong>
+                                <small>@oliviac</small>
+                            </div>
+
+                            <button>Follow</button>
+
+                        </div>
+
+
+                        <div class="suggestion">
+
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100">
+
+                            <div>
+                                <strong>Ryan Cole</strong>
+                                <small>@ryancole</small>
+                            </div>
+
+                            <button>Follow</button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="card trending">
+
+                        <h3>Trending today</h3>
+
+                        <p>#weekendvibes</p>
+                        <small>18.4K posts</small>
+
+                        <p>#streetphotography</p>
+                        <small>9.7K posts</small>
+
+                        <p>#designinspo</p>
+                        <small>7.2K posts</small>
+
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ================= EXPLORE ================= -->
+
+        <div class="page" id="explore">
+
+            <div class="page-heading">
+
+                <div>
+                    <p class="small-title">DISCOVER</p>
+                    <h1>Explore</h1>
+                </div>
+
+            </div>
+
+
+            <div class="search-bar">
+
+                🔍
+
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="Search people, topics or places"
+                >
+
+            </div>
+
+
+            <div class="tabs">
+
+                <button class="active">For you</button>
+                <button>People</button>
+                <button>Posts</button>
+                <button>Tags</button>
+
+            </div>
+
+
+            <div class="explore-grid">
+
+                <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600">
+
+                <img class="tall" src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=600">
+
+                <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600">
+
+                <img class="wide" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1000">
+
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600">
+
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600">
+
+                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600">
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ================= REELS ================= -->
+
+        <div class="page" id="reels">
+
+            <div class="page-heading">
+
+                <div>
+                    <p class="small-title">SHORT FORM</p>
+                    <h1>Reels</h1>
+                </div>
+
+                <button class="outline-button">
+                    ＋ Create
+                </button>
+
+            </div>
+
+
+            <div class="reels">
+
+                <div
+                    class="reel"
+                    style="background-image:url('https://images.unsplash.com/photo-1511497584788-876760111969?w=900')"
+                >
+
+                    <div class="reel-text">
+
+                        <small>FOR YOU</small>
+
+                        <h2>
+                            Find your next escape.
+                        </h2>
+
+                        <p>
+                            @mila.travels · 24s
+                        </p>
+
+                    </div>
+
+
+                    <div class="reel-buttons">
+
+                        <button>♡<small>12.8K</small></button>
+                        <button>💬<small>412</small></button>
+                        <button>↗</button>
+                        <button>🔖</button>
+
+                    </div>
+
+                </div>
+
+
+
+                <div
+                    class="reel"
+                    style="background-image:url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=900')"
+                >
+
+                    <div class="reel-text">
+
+                        <small>MUSIC</small>
+
+                        <h2>
+                            Late night, good music.
+                        </h2>
+
+                        <p>
+                            @noahcreates · 18s
+                        </p>
+
+                    </div>
+
+
+                    <div class="reel-buttons">
+
+                        <button>♡<small>8.3K</small></button>
+                        <button>💬<small>208</small></button>
+                        <button>↗</button>
+                        <button>🔖</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ================= MESSAGES ================= -->
+
+        <div class="page" id="messages">
+
+            <div class="page-heading">
+
+                <div>
+                    <p class="small-title">INBOX</p>
+                    <h1>Messages</h1>
+                </div>
+
+                <button class="outline-button">
+                    ✎
+                </button>
+
+            </div>
+
+
+            <div class="messages card">
+
+                <div class="message-list">
+
+                    <div class="message-tabs">
+
+                        <button class="active">
+                            Messages
+                        </button>
+
+                        <button>
+                            Requests <span>3</span>
+                        </button>
+
+                    </div>
+
+
+                    <div class="message active">
+
+                        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=100">
+
+                        <div>
+                            <strong>Jordan Lee</strong>
+                            <p>That photo is incredible! ✨</p>
+                        </div>
+
+                        <small>2m</small>
+
+                    </div>
+
+
+                    <div class="message">
+
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100">
+
+                        <div>
+                            <strong>Alex Chen</strong>
+                            <p>Are we still on for tomorrow?</p>
+                        </div>
+
+                        <small>18m</small>
+
+                    </div>
+
+
+                    <div class="message">
+
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100">
+
+                        <div>
+                            <strong>Mila Davis</strong>
+                            <p>Sent a reel · 🎬</p>
+                        </div>
+
+                        <small>1h</small>
+
+                    </div>
+
+
+                    <div class="message">
+
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100">
+
+                        <div>
+                            <strong>Noah Williams</strong>
+                            <p>Thanks! See you soon.</p>
+                        </div>
+
+                        <small>3h</small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="empty-message">
+
+                    <div class="message-icon">
+                        💬
+                    </div>
+
+                    <h2>Your messages</h2>
+
+                    <p>
+                        Send a message to start a conversation
+                        with someone on Aura.
+                    </p>
+
+                    <button class="login-button">
+                        New message
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ================= PROFILE ================= -->
+
+        <div class="page" id="profile">
+
+            <div class="profile-card card">
+
+                <div class="profile-cover"></div>
+
+
+                <div class="profile-content">
+
+                    <img
+                        class="profile-photo"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300"
+                    >
+
+
+                    <div class="profile-details">
+
+                        <div class="profile-title">
+
+                            <div>
+                                <h1>Aria Morgan</h1>
+                                <p>@ariamorgan</p>
+                            </div>
+
+                            <button class="login-button small">
+                                Edit profile
+                            </button>
+
+                        </div>
+
+
+                        <p class="bio">
+                            Digital creator · visual storyteller<br>
+                            Finding beauty in ordinary places. ✦
+                        </p>
+
+
+                        <div class="stats">
+
+                            <div>
+                                <strong>248</strong>
+                                Posts
+                            </div>
+
+                            <div>
+                                <strong>18.4K</strong>
+                                Followers
+                            </div>
+
+                            <div>
+                                <strong>642</strong>
+                                Following
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="profile-tabs">
+
+                <button class="active">
+                    ▦ Posts
+                </button>
+
+                <button>
+                    ▶ Reels
+                </button>
+
+                <button>
+                    🔖 Saved
+                </button>
+
+            </div>
+
+
+            <div class="profile-grid">
+
+                <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=700">
+
+                <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=700">
+
+                <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=700">
+
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=700">
+
+                <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=700">
+
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=700">
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- MOBILE NAVIGATION -->
+
+    <nav class="mobile-navigation">
+
+        <button class="nav-button active" data-page="home">
+            🏠
+            <span>Home</span>
+        </button>
+
+        <button class="nav-button" data-page="explore">
+            🔍
+            <span>Explore</span>
+        </button>
+
+        <button class="nav-button" data-page="reels">
+            ▶
+            <span>Reels</span>
+        </button>
+
+        <button class="nav-button" data-page="messages">
+            💬
+            <span>Messages</span>
+        </button>
+
+        <button class="nav-button" data-page="profile">
+            👤
+            <span>Profile</span>
+        </button>
+
+    </nav>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
