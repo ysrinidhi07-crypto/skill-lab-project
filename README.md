@@ -20,5 +20,6 @@ prototype
 stitch updated project ss
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/213c2644-882b-4903-ae7a-c47a9ed3c466" />
 
-
+this is the live URL to access the website
+https://ysrinidhi07-crypto.github.io/skill-lab-project/
 
